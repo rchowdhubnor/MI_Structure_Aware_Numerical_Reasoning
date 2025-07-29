@@ -4,7 +4,8 @@ Codes:
 3. collectactivation.py - Code to collect activations for needed for probing
 4. probewcontrol27.py - Code to probe token 27
 5. probewcontrolsecondLast.py - Code to probe second last token
-6. 
+6. patchtokens.py - Code to perform intervention at most token to check arithmetic composition
+7. 
 
    
 Packages needed for intervention could be found here:
