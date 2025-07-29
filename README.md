@@ -3,7 +3,8 @@ Codes:
 2. evaluate.py - Code to collect the output of the model to test its original performance
 3. collectactivation.py - Code to collect activations for needed for probing
 4. probewcontrol27.py - Code to probe token 27
-5. 
+5. probewcontrolsecondLast.py - Code to probe second last token
+6. 
 
    
 Packages needed for intervention could be found here:
