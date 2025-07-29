@@ -6,8 +6,7 @@ Codes:
 5. probewcontrolsecondLast.py - Code to probe second last token
 6. patchtokens.py - Code to perform intervention at most token to check arithmetic composition
 7. patchhead.py and valwattn.py - The first code is needed to collect results of intervention on individual heads and the second code is needed to collect value-weighted attention. Together, the results of these codes are needed to compute the token importance score
-8. 
-
+8. KeysSwap.py - Code needed to perform interventions to check what the model prioritizes for retrieval and composition.
    
 Packages needed for intervention could be found here:
 1. https://nnsight.net/start/ (for all except Key Swap)
