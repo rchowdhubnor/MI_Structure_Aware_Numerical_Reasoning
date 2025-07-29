@@ -1,6 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
-
 def generate_sequence_shifted_second_half(y0, diff_candidates=None):
     if diff_candidates is None:
         diff_candidates = [i for i in range(-9, 10) if i != 0]
@@ -66,10 +64,8 @@ def generate_vertical_flip_pairs(num_pairs=10000, seed=None):
     return np.array(originals), np.array(flipped)
 
 # Run and save
-original_dataset, flipped_dataset = generate_vertical_flip_pairs(num_pairs=10000, seed=42)
+original_dataset, _ = generate_vertical_flip_pairs(num_pairs=10000, seed=42)
 dataset_finalsame = np.zeros((2, 10000, 32))
 dataset_finalsame[0, :, :] = original_dataset
-dataset_finalsame[1, :, :] = flipped_dataset
 
-np.save('/home/rahul/ACLRandomWalk/Dataset/dataset_finalsame.npy', dataset_finalsame)
 
